@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <title>Title</title>
   <link rel="stylesheet" href="gallery.css">
+  
 </head>
 <body>
 <header>
   <h1>GALLERY</h1>
   <div class="menu">
-    <button type="button" class="btn">WILDLIFE</button>
-    <button type="button" class="btn">TECHNOLOGY</button>
-    <button type="button" class="btn">GALAXY</button>
+    <button type="button" class="btn" id="wildlife">WILDLIFE</button>
+    <button type="button" class="btn" id="technology">TECHNOLOGY</button>
+    <button type="button" class="btn" id="nature">NATURE</button>
   </div>
 </header>
 <main>
-  <div class="wildlife">
+  <div class="wildlife" id="wildlife-id">
     <div class="wildlife-1"><img src="lion.png" alt="LION"></div>
     <div class="wildlife-2"><img src="monkey.png" alt="MONKEY"></div>
     <div class="wildlife-3"><img src="bear.png" alt="BEAR"></div>
@@ -23,7 +24,7 @@
     <div class="wildlife-5"><img src="panda.png" alt="PANDA"></div>
     <div class="wildlife-6"><img src="bleopard.png" alt="LEOPARD"></div>
   </div>
-  <div class="technology">
+  <div class="technology" id="technology-id">
     <div class="technology-1"><img src="transistor.png" alt="TRANSISTOR"></div>
     <div class="technology-2"><img src="desktop.png" alt="DESKTOP"></div>
     <div class="technology-3"><img src="turbo.png" alt="TURBO5.0HD"></div>
@@ -31,7 +32,7 @@
     <div class="technology-5"><img src="typwriter.png" alt="TYPEWRITER"></div>
     <div class="technology-6"><img src="desktop1.png" alt="MACBOOK"></div>
   </div>
-  <div class="nature">
+  <div class="nature" id="nature-id">
     <div class="nature-1"><img src="s1.png" alt="SUNSET IN TREE"></div>
     <div class="nature-2"><img src="road.png" alt="ROAD BETWEEN TREES"></div>
     <div class="nature-3"><img src="fog.png" alt="FOG"></div>
@@ -41,5 +42,6 @@
   </div>
 </main>
 <footer class="foot-er">----COPYRIGHTS(HPC)----</footer>
+<script type="text/javascript" src="gallery.js"></script>  
 </body>
 </html>
