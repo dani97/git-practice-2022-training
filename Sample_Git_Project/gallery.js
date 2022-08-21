@@ -24,3 +24,4 @@ function processThirdgrid(){
     document.getElementById("technology-id").style.display = "none";
     document.getElementById("wildlife-id").style.display = "none";
 }
+//console.log("Hi");
