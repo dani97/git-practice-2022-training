@@ -1,2 +1,1 @@
-alert("hi");
-console.log("Hello");
+alert("hi everyone!!!");
